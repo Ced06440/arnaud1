@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 /*--------------------------------------------------------------
@@ -1132,6 +1132,11 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+#footer h3{
+  font-family: 'Merriweather', serif;
+}
+
 
 /* Effet Titre */
 
