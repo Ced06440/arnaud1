@@ -1,0 +1,37 @@
+<!-- Google Calendar Appointment Scheduling begin 1H -->
+<div>
+    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+            (function() {
+                var target = document.currentScript;
+                window.addEventListener('load', function() {
+                calendar.schedulingButton.load({
+                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ01aZqcFCc5_CmPvnDT1WfSMdXMLALZpMtAvcfE2Ubt037bg37Uboe-2NegngeadG9wMyQWMHEA?gv=true',
+                    color: '#437353',
+                    label: 'Réserver un rendez-vous',
+                    target,
+                });
+            });
+        })();
+    </script>
+</div>
+<!-- end Google Calendar Appointment Scheduling 1h -->
+
+<!-- Google Calendar Appointment Scheduling begin 2H -->
+    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+                (function() {
+                var target = document.currentScript;
+                window.addEventListener('load', function() {
+                calendar.schedulingButton.load({
+                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3a0SUgHBzfK4mbIJ9DnoNVr1bLduGiEXK0rrFkYR-BDjOIEi_fBV22yOccoPPEHrifJIP3sXLB?gv=true',
+                    color: '#437353',
+                    label: 'Réserver un rendez-vous',
+                    target,
+                    });
+                });
+            })();
+        </script>
+<!-- end Google Calendar Appointment Scheduling 2h -->
