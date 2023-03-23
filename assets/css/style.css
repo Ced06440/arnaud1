@@ -756,8 +756,13 @@ section {
 @media (max-width: 950px){
   .image2{
     height: 100%;
-    margin-top: 30px;
-    margin-bottom: -15px;
+    
+  }
+  .image3{
+    height: 100%;
+  }
+  .image1{
+    height: 1000px;
   }
 }
 

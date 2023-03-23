@@ -316,7 +316,7 @@
           </div>
 
           <div class="col-lg-7 col-12">
-            <div class="col-lg-12 col-12">
+            <div class="col-lg-12 col-12 mt-3">
               <div class="overlay-image">
                 <img class="image2" src="assets/benyamin-bohlouli-LGXN4OSQSa4-unsplash.jpg" alt="Alt text" />
                 <div class="normal">
@@ -461,7 +461,7 @@
 
               <div class="col-lg-12 col-12 mt-3">
                 <div class="overlay-image">
-                  <img class="image2" src="assets/camille-brodard-VxAwTeiqDao-unsplash.jpg" Alt text" />
+                  <img class="image3" src="assets/camille-brodard-VxAwTeiqDao-unsplash.jpg" Alt text" />
                   <div class="normal">
                     <div class="titre">
                       <h2>RENDEZ-VOUS</h2>
@@ -470,10 +470,24 @@
                   <div class="hover">
                     <div class="text-hover">
                       <div class="row ju">
-                        <div>
-                          <h3 class="text-center text-white mt-3">
-                            Prendre rendez-vous
-                          </h3>
+                        <div class="text-center">
+                          <!-- Google Calendar Appointment Scheduling begin -->
+                          <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                          <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                          <script>
+                          (function() {
+                            var target = document.currentScript;
+                            window.addEventListener('load', function() {
+                              calendar.schedulingButton.load({
+                                url: 'https://calendar.google.com/calendar/appointments/AcZssZ3LXtCzImOnsdWtI1oU1Ku4JK0NP3WdtGB9GwA=?gv=true',
+                                color: '#616161',
+                                label: 'Réserver un rendez-vous',
+                                target,
+                              });
+                            });
+                          })();
+                          </script>
+                          <!-- end Google Calendar Appointment Scheduling -->
                         </div>
                       </div>
                     </div>
@@ -644,8 +658,7 @@
               Laissez moi un Avis positif
             </h4>
             <div>
-              <img src="./assets/avis-google.png" alt="" style="width:200px; margin-top: 20px;">
-              <img src="./assets/Avis facebook.png" alt="" style="width:300px; margin-top: 20px;">
+              <a href="https://g.page/r/CQsFH7PFjUlmEAI/review" target="_blank"><img src="./assets/avis-google.png" alt="" style="width:200px; margin-top: 20px;"></a>
             </div>
           </div>
 
